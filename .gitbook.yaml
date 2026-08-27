@@ -1,0 +1,63 @@
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+redirects:
+  index: README.md
+  docs/mrk-doctor: README.md
+  mrk-doctor: README.md
+  mrk-doctor/index: README.md
+  products: README.md
+  status: support.md
+  mrk-doctor/changes/configuration-changes: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/changes/file-diffs: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/changes/plugin-changes: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/changes/server-changes: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/configuration/advanced: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/configuration/dashboard: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/configuration/monitoring: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/configuration/storage-retention: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/core-concepts/baseline: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/core-concepts/confidence-score: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/core-concepts/evidence: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/core-concepts/health-score: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/core-concepts/how-it-works: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/core-concepts/incident-severity: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/core-concepts/incidents: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/core-concepts/timeline: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/core-concepts/what-changed: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/dashboard/accessing-dashboard: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/dashboard/authentication: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/dashboard/reverse-proxy: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/dashboard/vps: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/diagnostics/error-intelligence: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/diagnostics/memory: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/diagnostics/performance: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/diagnostics/plugin-attribution: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/diagnostics/plugin-diagnostics: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/diagnostics/server-metrics: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/getting-started/first-start: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/permissions/command-diagnostics: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/permissions/luckperms: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/reference/database: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/reference/developer-api: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/reference/events: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/reference/files-and-directories: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/reports/html-reports: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/reports/json-reports: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/reports/redaction: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/reports/sharing-reports: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/support/broke-after-update: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/support/command-doesnt-work: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/support/common-problems: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/support/dashboard-cannot-be-accessed: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/support/database-problems: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/support/event-cancelled: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/support/mrk-doctor-performance: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/support/player-permission: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/support/plugin-errors: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/support/ram-growing: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/support/server-started-lagging: mrk-doctor/support/troubleshooting.md
+  mrk-doctor/tracing/overview: mrk-doctor/support/troubleshooting.md

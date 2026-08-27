@@ -1,0 +1,13 @@
+{
+  "name": "mrk-doctor-docs",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "test": "node scripts/validate.mjs",
+    "links": "node scripts/validate.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
