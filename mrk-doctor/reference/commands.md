@@ -19,11 +19,11 @@ All commands require `mrkdoctor.view`. Permissions default to operators. See [pe
 | `/doctor command <player> <command>` | Check a command's owner and access. | — |
 | `/doctor snapshot` | Save a diagnostic snapshot. | — |
 | `/doctor report` | Generate a report file. | `mrkdoctor.report` |
-| `/doctor dashboard` | Show the configured service address. | `mrkdoctor.dashboard` |
-| `/doctor dashboard setup` | Create a new dashboard credential; restart afterward. | `mrkdoctor.dashboard` |
+| `/doctor dashboard` | Show the configured embedded dashboard address. | `mrkdoctor.dashboard` |
+| `/doctor dashboard setup` | Create and immediately activate a new dashboard credential. | `mrkdoctor.dashboard` |
 | `/doctor reload` | Reload configuration values; some changes still require restart. | `mrkdoctor.admin` |
 
-Use exact online player names for player checks. The address printed by `/doctor dashboard` is not necessarily the public web dashboard address.
+Use exact online player names for player checks. The address printed by `/doctor dashboard` uses the configured bind address; replace `127.0.0.1` or `0.0.0.0` with the public hostname when opening it remotely.
 
 The optimized Paper edition additionally offers `/doctor plugin <plugin>` for a plugin summary. This command is not available in Universal.
 

@@ -11,7 +11,7 @@ icon: circle-info
 - Detailed listener tracing and slow-task tracing are not available in this release.
 - Some measurements and features vary by server version and edition.
 - Recent-change monitoring does not cover every server file.
-- The web dashboard must be hosted separately.
+- Remote dashboard access still depends on a reachable allocated port or reverse proxy supplied by the server host.
 - Automatic masking cannot guarantee that a report is free of sensitive information.
 
 For an unresolved issue, [contact support](../../support.md) with a reviewed report and a clear description.

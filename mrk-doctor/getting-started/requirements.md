@@ -17,4 +17,4 @@ No additional plugin is mandatory. Leave sufficient free disk space for diagnost
 
 Some measurements may not be available on every server version. An unavailable measurement does not mean your server is healthy or broken.
 
-The web dashboard is a separate application. Remote access requires a secure web address and suitable hosting allocations. See [dashboard setup](../dashboard/initial-setup.md).
+The web dashboard is embedded in the plugin JAR. Remote access requires one suitable hosting allocation and a secure web address or reverse proxy. See [dashboard setup](../dashboard/initial-setup.md).

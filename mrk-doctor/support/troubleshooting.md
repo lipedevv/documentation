@@ -15,7 +15,7 @@ Record when the issue began. Check `/doctor status`, open incidents, and recent 
 
 ## Dashboard will not connect
 
-Confirm the web application is running and you are opening its address, not a diagnostic service port. Check the allowed origin, hosting allocations, proxy route, and configured service addresses. After generating a new token, restart the server and use the new token. Never disable security or expose unrestricted ports as a workaround.
+Confirm MRK Doctor is enabled and open the configured embedded dashboard address. Check the bind address, single hosting allocation, firewall, proxy route, and configured port. A newly generated token is active immediately. Never disable security or expose an unrestricted port as a workaround.
 
 ## A player cannot use a command
 

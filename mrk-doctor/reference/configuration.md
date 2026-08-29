@@ -16,15 +16,15 @@ This reference covers `plugins/MRKDoctor/config.yml` in the Universal edition. R
 | `doctor.changes.interval-seconds` | `30` | Change-check interval; use at least 10 seconds. |
 | `doctor.changes.max-file-bytes` | `1048576` | Size limit for detailed text-file comparisons. |
 | `doctor.dashboard.enabled` | `true` | Enable dashboard connectivity. |
-| `doctor.dashboard.bind` | `127.0.0.1` | Listening address; keep local unless your secure hosting setup requires otherwise. |
-| `doctor.dashboard.port` | `7854` | First service port; reserve the following port too. |
-| `doctor.dashboard.cors-origin` | `http://127.0.0.1:3000` | Exact web dashboard origin. |
+| `doctor.dashboard.bind` | `0.0.0.0` | Listen on the server allocation. Use `127.0.0.1` when access must go through a same-host reverse proxy. |
+| `doctor.dashboard.port` | `7854` | Single port used by the embedded dashboard and its authenticated API. |
+| `doctor.dashboard.cors-origin` | `http://127.0.0.1:7854` | Optional allowed origin for advanced proxy deployments; same-origin access needs no separate frontend address. |
 | `doctor.dashboard.token-hash` | Empty | Managed by `/doctor dashboard setup`; do not edit by hand. |
 | `storage.raw-retention-hours` | `24` | Retention period for detailed metric history. |
 | `logging.debug` | `false` | Leave at its default; it does not enable additional logging in this release. |
 
-Use positive monitoring intervals and a valid port pair. Reducing intervals increases monitoring work; test changes on a staging server first.
+Use positive monitoring intervals and a valid dashboard port. Reducing intervals increases monitoring work; test changes on a staging server first.
 
 {% hint style="warning" %}
-Do not paste the dashboard token into configuration examples. Generate credentials through the command, and keep diagnostic ports protected.
+Do not paste the dashboard token into configuration examples. Generate credentials through the command, and keep the diagnostic port protected.
 {% endhint %}

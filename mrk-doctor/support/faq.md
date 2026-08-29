@@ -15,7 +15,7 @@ No. Verify the issue before blaming, removing, or replacing a plugin.
 
 ## Can I use the dashboard immediately after copying the JAR?
 
-The dashboard application needs separate hosting and [connection setup](../dashboard/initial-setup.md).
+Yes. The dashboard application is embedded in the plugin JAR. Generate a token, configure one reachable port, and follow the [connection setup](../dashboard/initial-setup.md).
 
 ## Is a diagnostic snapshot a backup?
 
