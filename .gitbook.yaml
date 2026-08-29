@@ -5,6 +5,26 @@ structure:
   summary: SUMMARY.md
 
 redirects:
+  es: es/README.md
+  ru: ru/README.md
+  de: de/README.md
+  fr: fr/README.md
+  pt-BR: pt-BR/README.md
+  pl: pl/README.md
+  tr: tr/README.md
+  zh: zh/README.md
+  id: id/README.md
+  it: it/README.md
+  vi: vi/README.md
+  nl: nl/README.md
+  ko: ko/README.md
+  cs: cs/README.md
+  th: th/README.md
+  hu: hu/README.md
+  ar: ar/README.md
+  ja: ja/README.md
+  uk: uk/README.md
+  sv: sv/README.md
   index: README.md
   docs/mrk-doctor: README.md
   mrk-doctor: README.md
