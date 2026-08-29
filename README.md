@@ -42,7 +42,3 @@ Use MRK Doctor to review server health, investigate problems, track recent chang
 [Commands](mrk-doctor/reference/commands.md) · [Permissions](mrk-doctor/reference/permissions.md) · [Support](support.md)
 
 [Changelog](changelog.md) · [Privacy](privacy.md) · [Terms](terms.md)
-
-## Languages
-
-[Español](es/README.md) · [Русский](ru/README.md) · [Deutsch](de/README.md) · [Français](fr/README.md) · [Português (Brasil)](pt-BR/README.md) · [Polski](pl/README.md) · [Türkçe](tr/README.md) · [中文](zh/README.md) · [Bahasa Indonesia](id/README.md) · [Italiano](it/README.md) · [Tiếng Việt](vi/README.md) · [Nederlands](nl/README.md) · [한국어](ko/README.md) · [Čeština](cs/README.md) · [ไทย](th/README.md) · [Magyar](hu/README.md) · [العربية](ar/README.md) · [日本語](ja/README.md) · [Українська](uk/README.md) · [Svenska](sv/README.md)
